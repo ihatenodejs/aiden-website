@@ -1,0 +1,12 @@
+<div id="sidebar" class="w-64 bg-blue-800 h-screen p-4 rounded-lg shadow-lg sm:block hidden fixed sm:relative sm:w-64 sm:m-0 sm:rounded-none sm:shadow-none">
+    <div class="flex justify-between items-center mb-4">
+        <h2 class="text-2xl font-bold">Menu</h2>
+        <button id="close-button" class="text-white focus:outline-none sm:hidden"><i class="fas fa-times"></i></button>
+    </div>
+    <ul>
+        <li class="mb-2"><a href="/" class="text-blue-200 hover:text-blue-300"><i class="fas fa-home"></i> Home</a></li>
+        <li class="mb-2"><a href="/about" class="text-blue-200 hover:text-blue-300"><i class="fas fa-user"></i> About</a></li>
+        <li class="mb-2"><a href="/contact" class="text-blue-200 hover:text-blue-300"><i class="fas fa-envelope"></i> Contact</a></li>
+    </ul>
+    <%- include('music') %>
+</div>

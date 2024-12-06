@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Aiden Charles</title>
+    <link href="/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-blue-900 text-white">
+    <div class="w-full flex justify-center p-4 sm:hidden">
+        <button id="menu-button" class="text-white focus:outline-none">
+        <i class="fas fa-bars"></i>
+        </button>
+    </div>
+    <div class="flex">
+        <%- include('shards/sidebar') %>
+        <div id="main-content" class="flex-1 p-8">
+            <div class="text-center">
+                <img src="/img/profile.jpg" alt="Profile picture" class="w-32 h-32 rounded-full mx-auto">
+                <h1 class="text-4xl font-bold mt-4">Aiden Charles</h1>
+                <div class="mt-2">
+                    <a href="https://x.com/GobbledyGooker7" class="text-blue-400 hover:text-blue-300 mx-2">
+                        <i class="fab fa-twitter"></i> Twitter
+                    </a>
+                    <a href="https://github.com/TheJaxL" class="text-blue-400 hover:text-blue-300 mx-2">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="mailto:percy17@disroot.org" class="text-blue-400 hover:text-blue-300 mx-2">
+                        <i class="fa-solid fa-envelope-open"></i> Email
+                    </a>
+                </div>
+            </div>
+            <div class="mt-8">
+                <h2 class="text-2xl font-bold">About Me</h2>
+                <p class="mt-4 text-lg">Hi, everyone! Here’s a little bit about me. I started my first YouTube channel when I was 10 years old, and I called it "Aiden The Computer Person." Since then, I’ve moved on from that channel because I got bored with it. Fast forward to 2024, and now I have a new channel where I plan to upload videos someday when I get the chance—hopefully soon. It’s called "Chasing Thunder," and I think one day I’m going to become a storm chaser.</p>
+                <p class="mt-4 text-lg">As I’ve grown older, my love for technology has only increased. I grew up in the days when Samsung was truly Samsung.</p>
+                <p class="mt-4 text-lg">My daily driver phone is a Google Pixel 7 Pro. Previously, I used a Samsung A23 5G... but please, don’t bother with that wannabe iPhone.</p>
+            </div>
+        </div>
+    </div>
+    <script src="/js/lastfm.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

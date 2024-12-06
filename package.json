@@ -1,0 +1,32 @@
+{
+  "name": "aiden-website",
+  "version": "1.0.0",
+  "description": "A website for my friend",
+  "main": "app.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/public/css/base.css -o ./src/public/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihatenodejs/aiden-website.git"
+  },
+  "keywords": [
+    "website",
+    "bio"
+  ],
+  "author": "ihatenodejs",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/ihatenodejs/aiden-website/issues"
+  },
+  "homepage": "https://github.com/ihatenodejs/aiden-website#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16"
+  }
+}

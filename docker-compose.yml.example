@@ -1,0 +1,9 @@
+services:
+  aiden-website:
+    build: .
+    ports:
+      - "2244:2244"
+    volumes:
+      - .:/app
+    environment:
+      - NODE_ENV=development

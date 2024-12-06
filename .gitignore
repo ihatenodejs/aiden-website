@@ -128,3 +128,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# extra
+docker-compose.yml
+package-lock.json
+src/public/css/styles.css

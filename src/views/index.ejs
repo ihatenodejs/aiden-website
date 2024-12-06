@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aiden Charles</title>
+    <link href="/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-blue-900 text-white">
+    <div class="w-full flex justify-center p-4 sm:hidden">
+        <button id="menu-button" class="text-white focus:outline-none">
+        <i class="fas fa-bars"></i>
+        </button>
+    </div>
+    <div class="flex">
+        <%- include('shards/sidebar') %>
+        <div id="main-content" class="flex-1 p-8">
+            <div class="text-center">
+                <img src="/img/profile.jpg" alt="Profile Picture" class="w-32 h-32 rounded-full mx-auto">
+                <h1 class="text-4xl font-bold mt-4">Aiden Charles</h1>
+                <div class="mt-2">
+                <a href="https://x.com/GobbledyGooker7" class="text-blue-400 hover:text-blue-300 mx-2">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+                <a href="https://github.com/TheJaxL" class="text-blue-400 hover:text-blue-300 mx-2">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="mailto:percy17@disroot.org" class="text-blue-400 hover:text-blue-300 mx-2">
+                    <i class="fa-solid fa-envelope-open"></i> Email
+                </a>
+                </div>
+            </div>
+            <div class="mt-8">
+                <p class="mt-4 text-lg"><b>Hi,</b> my name is Aiden! I'm 17 in the 11th grade. I'm into storm chasing, technology, my dream is to be a storm chaser possibly. But I appreciate you visiting my website and I hope you enjoy.</p>
+            </div>
+        </div>
+    </div>
+    <script src="/js/lastfm.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
