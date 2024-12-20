@@ -133,3 +133,4 @@ dist
 docker-compose.yml
 package-lock.json
 src/public/css/styles.css
+.idea/
